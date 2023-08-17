@@ -1,0 +1,425 @@
+{
+    "implementation_id": "sdv.single_table.ctgan.CTGANSynthesizer",
+    "metrics": {
+        "fidelity": [
+            {
+                "name": "Fidelity Score",
+                "value": 68.03677296176105
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "second_perc",
+                "value": 0.49534883720930234
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "high_perc",
+                "value": 0.3553488372093023
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "degree_perc",
+                "value": 0.3883720930232558
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "experience_years",
+                "value": 0.9441860465116279
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "employability_perc",
+                "value": 0.8536046511627907
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "mba_perc",
+                "value": 0.5454651162790698
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "salary",
+                "value": 0.34336137225795815
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "start_date",
+                "value": 0.41241425464279735
+            },
+            {
+                "name": "KSComplement",
+                "column_name": "end_date",
+                "value": 0.5110710776285621
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "gender",
+                "value": 0.9384883720930233
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "high_spec",
+                "value": 0.9211627906976745
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "degree_type",
+                "value": 0.9944186046511628
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "work_experience",
+                "value": 0.9608139534883722
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "mba_spec",
+                "value": 0.9481395348837209
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "placed",
+                "value": 0.9716279069767442
+            },
+            {
+                "name": "TVComplement",
+                "column_name": "duration",
+                "value": 0.6883720930232557
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "student_id",
+                "value": 0.005938777352278241
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "second_perc",
+                "value": 0.19502750321278528
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "high_perc",
+                "value": 0.1525471043269453
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "degree_perc",
+                "value": 0.25031678000976787
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "work_experience",
+                "value": 0.09360148000017225
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "experience_years",
+                "value": 0.13614744598850465
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "employability_perc",
+                "value": 0.06334394461606975
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "mba_perc",
+                "value": 0.25074314882657794
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "salary",
+                "value": 0.00877697118478262
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "placed",
+                "value": 0.06769380570750912
+            },
+            {
+                "name": "Hellinger Distance",
+                "column_name": "duration",
+                "value": 0.016438149091171923
+            },
+            {
+                "name": "Mean",
+                "column_name": "student_id",
+                "value": 0.0
+            },
+            {
+                "name": "Mean",
+                "column_name": "gender",
+                "value": 0.9384883720930233
+            },
+            {
+                "name": "Mean",
+                "column_name": "second_perc",
+                "value": 0.7324014708067865
+            },
+            {
+                "name": "Mean",
+                "column_name": "high_perc",
+                "value": 0.7365467415041567
+            },
+            {
+                "name": "Mean",
+                "column_name": "high_spec",
+                "value": 0.9264534883720931
+            },
+            {
+                "name": "Mean",
+                "column_name": "degree_perc",
+                "value": 0.7311198525241067
+            },
+            {
+                "name": "Mean",
+                "column_name": "degree_type",
+                "value": 0.995
+            },
+            {
+                "name": "Mean",
+                "column_name": "work_experience",
+                "value": 0.9608139534883721
+            },
+            {
+                "name": "Mean",
+                "column_name": "experience_years",
+                "value": 0.9852325581395349
+            },
+            {
+                "name": "Mean",
+                "column_name": "employability_perc",
+                "value": 0.9343032945736436
+            },
+            {
+                "name": "Mean",
+                "column_name": "mba_spec",
+                "value": 0.9481395348837209
+            },
+            {
+                "name": "Mean",
+                "column_name": "mba_perc",
+                "value": 0.7748412276419924
+            },
+            {
+                "name": "Mean",
+                "column_name": "salary",
+                "value": 0.9728314159448576
+            },
+            {
+                "name": "Mean",
+                "column_name": "placed",
+                "value": 0.9716279069767442
+            },
+            {
+                "name": "Mean",
+                "column_name": "start_date",
+                "value": 0.7771979024167807
+            },
+            {
+                "name": "Mean",
+                "column_name": "end_date",
+                "value": 0.999168428470754
+            },
+            {
+                "name": "Mean",
+                "column_name": "duration",
+                "value": 0.985912343470483
+            },
+            {
+                "name": "Std",
+                "column_name": "student_id",
+                "value": 0.979765703055925
+            },
+            {
+                "name": "Std",
+                "column_name": "gender",
+                "value": 0.985209825833478
+            },
+            {
+                "name": "Std",
+                "column_name": "second_perc",
+                "value": 0.9757593253125897
+            },
+            {
+                "name": "Std",
+                "column_name": "high_perc",
+                "value": 0.985445790671543
+            },
+            {
+                "name": "Std",
+                "column_name": "high_spec",
+                "value": 0.9601263495584315
+            },
+            {
+                "name": "Std",
+                "column_name": "degree_perc",
+                "value": 0.976043700648635
+            },
+            {
+                "name": "Std",
+                "column_name": "degree_type",
+                "value": 0.9973718945213981
+            },
+            {
+                "name": "Std",
+                "column_name": "work_experience",
+                "value": 0.9853519165209113
+            },
+            {
+                "name": "Std",
+                "column_name": "experience_years",
+                "value": 0.9987112636902951
+            },
+            {
+                "name": "Std",
+                "column_name": "employability_perc",
+                "value": 0.9988393794774867
+            },
+            {
+                "name": "Std",
+                "column_name": "mba_spec",
+                "value": 0.9912066643577739
+            },
+            {
+                "name": "Std",
+                "column_name": "mba_perc",
+                "value": 0.977106114422228
+            },
+            {
+                "name": "Std",
+                "column_name": "salary",
+                "value": 0.9984887821614636
+            },
+            {
+                "name": "Std",
+                "column_name": "placed",
+                "value": 0.9893420534077723
+            },
+            {
+                "name": "Std",
+                "column_name": "start_date",
+                "value": 0.8090666652938119
+            },
+            {
+                "name": "Std",
+                "column_name": "end_date",
+                "value": 0.9688307133376906
+            },
+            {
+                "name": "Std",
+                "column_name": "duration",
+                "value": 0.9987339929396236
+            },
+            {
+                "name": "Median",
+                "column_name": "student_id",
+                "value": 0.0
+            },
+            {
+                "name": "Median",
+                "column_name": "gender",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "second_perc",
+                "value": 0.6727478870336013
+            },
+            {
+                "name": "Median",
+                "column_name": "high_perc",
+                "value": 0.7821252059308073
+            },
+            {
+                "name": "Median",
+                "column_name": "high_spec",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "degree_perc",
+                "value": 0.6859756097560976
+            },
+            {
+                "name": "Median",
+                "column_name": "degree_type",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "work_experience",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "experience_years",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "employability_perc",
+                "value": 0.9035416666666668
+            },
+            {
+                "name": "Median",
+                "column_name": "mba_spec",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "mba_perc",
+                "value": 0.7395052473763117
+            },
+            {
+                "name": "Median",
+                "column_name": "salary",
+                "value": 0.9388783098052148
+            },
+            {
+                "name": "Median",
+                "column_name": "placed",
+                "value": 1.0
+            },
+            {
+                "name": "Median",
+                "column_name": "start_date",
+                "value": 0.7843137254901961
+            },
+            {
+                "name": "Median",
+                "column_name": "end_date",
+                "value": 0.9242424242424242
+            },
+            {
+                "name": "Median",
+                "column_name": "duration",
+                "value": 1.0
+            }
+        ],
+        "utility": [
+            {
+                "name": "Distinguishability",
+                "value": 0.2424588580067122
+            }
+        ],
+        "privacy": [
+            {
+                "name": "Exact Matches",
+                "value": 0
+            },
+            {
+                "name": "k_anonimity",
+                "details": {
+                    "quasi_id": [
+                        "high_spec",
+                        "mba_spec"
+                    ],
+                    "first_k_not_passed": 3,
+                    "affected_records": 3,
+                    "proportion": 0.013953488372093023
+                }
+            }
+        ]
+    }
+}
